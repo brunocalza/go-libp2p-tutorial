@@ -2,7 +2,12 @@ module github.com/brunocalza/go-libp2p-tutorial
 
 go 1.17
 
-require github.com/libp2p/go-libp2p v0.14.4
+require (
+	github.com/libp2p/go-libp2p v0.14.4
+	github.com/libp2p/go-libp2p-core v0.8.5
+	github.com/libp2p/go-libp2p-peer v0.2.0
+	github.com/multiformats/go-multiaddr v0.3.3
+)
 
 require (
 	github.com/beorn7/perks v1.0.1 // indirect
@@ -33,7 +38,7 @@ require (
 	github.com/libp2p/go-libp2p-autonat v0.4.2 // indirect
 	github.com/libp2p/go-libp2p-blankhost v0.2.0 // indirect
 	github.com/libp2p/go-libp2p-circuit v0.4.0 // indirect
-	github.com/libp2p/go-libp2p-core v0.8.5 // indirect
+	github.com/libp2p/go-libp2p-crypto v0.1.0 // indirect
 	github.com/libp2p/go-libp2p-discovery v0.5.0 // indirect
 	github.com/libp2p/go-libp2p-mplex v0.4.1 // indirect
 	github.com/libp2p/go-libp2p-nat v0.0.6 // indirect
@@ -67,7 +72,6 @@ require (
 	github.com/mr-tron/base58 v1.2.0 // indirect
 	github.com/multiformats/go-base32 v0.0.3 // indirect
 	github.com/multiformats/go-base36 v0.1.0 // indirect
-	github.com/multiformats/go-multiaddr v0.3.3 // indirect
 	github.com/multiformats/go-multiaddr-dns v0.3.1 // indirect
 	github.com/multiformats/go-multiaddr-fmt v0.1.0 // indirect
 	github.com/multiformats/go-multiaddr-net v0.2.0 // indirect
